@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;   
+}
+
+body {
+    margin: 0;
+    background: rgba(81, 71, 168, 0.82);
+    background: url("https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.container {
+    background: rgba(81, 71, 168, 0.82);
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+#title-desc {
+    padding-top: 1.5em;
+    text-align: center;
+    color: #FFF;
+}
+
+#title {
+    font-size: 2.3em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#description {
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#form-container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(7, 5, 19, 0.82);
+    opacity: 75%;
+    border-radius: 0.5%;
+    text-align: start;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #FFF;
+}
+
+
+#name {
+    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#number {
+    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#roles {
+    width: 91%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#recom {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+#dropdown {
+    width: 92%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#checkboxes {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    line-height: 10px;
+}
+
+#comments {
+    width: 91%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 92%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #16b916;
+    font-size: 1em;
+    font-weight: 500;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
