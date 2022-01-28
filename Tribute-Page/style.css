@@ -1,0 +1,87 @@
+* {
+  font-family: sans-serif;
+}
+
+#title {
+  font-size: 2.5em;
+  color: #3F3E3E;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#definition {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #4B4A4A;
+}
+
+#main {
+  width:100vw;
+  background-color: #E7E7E7;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+
+#img-div {
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#image {
+  max-width: 100%;
+}
+
+#img-caption {
+   color: #4B4A4A;
+   padding-bottom: 15px;
+}
+
+#tribute-info {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#time-info-header {
+    color: #202020;
+}
+
+#list {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: start;
+  line-height: 1.5;
+}
+
+.list-item {
+  color: #202020;
+  margin-top: 20px;
+}
+
+.year {
+  display: inline;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.event {
+  display: inline;
+}
+
+#quote {
+  line-height: 1.5;
+  font-style: italic;
+  padding-top: 20px;
+  width: 35%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+#link-info {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  color: #202020;
+}
