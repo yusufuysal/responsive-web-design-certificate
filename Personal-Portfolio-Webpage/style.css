@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+main {
+  z-index: -1;
+}
+
+#navbar {
+  height: 100%;
+  background-color: #c0263b;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 2.5rem;
+  color: #fff;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+#welcome-section h4 {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
+  margin-top: 1rem;
+}
+
+#projects {
+  background-color: #45567d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects h1 {
+  padding-top: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  border-bottom: 0.1rem solid #fff;
+  font-size: 2.4rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.projects-container div {
+  height: 450;
+  width: 400px;
+  background-color: #3a3d40;
+}
+
+.projects-container div img {
+  width: 400px;
+  height: 85%;
+}
+
+.project-tile {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(218, 216, 216);
+}
+
+button {
+  margin-top: 5rem;
+  background-color: #3a3d40;
+  padding: 0.6rem 1rem;
+  margin-bottom: 7rem;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(218, 216, 216);
+  font-size: 1.3rem;
+}
+
+#contact {
+  height: 500px;
+  background-color: #303841;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact h1 {
+  font-size: 3.5rem;
+}
+
+#contact h5 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.contact-links div {
+  display: flex;
+  height: 100%;
+  width: 150px;
+}
+
+.contact-links div a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.contact-links div a img {
+  height: 60%;
+}
+
+footer {
+  border-top: 4px solid #be3144;
+  background-color: #303841;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
